@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Forms</title>
+</head>
+
+<body>
+
+<form>
+   <fieldset>
+    <legend>Personal information:</legend>
+    First name:<br>
+    <input type="text" name="firstname" required >
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" required >
+    <br><br>
+     Your photo:<br>
+     <input type="file" name="f1" accept="image/*" required >
+     <br><br>
+     Sex:<br>
+    <input type="radio" name="sex" value="male" checked>Male
+    <br>
+    <input type="radio" name="sex" value="female">Female 
+    <br><br>
+   </fieldset>
+   <fieldset>
+    <legend>Education:</legend>
+    Educational establishment:<br>
+    <input type="text" name="establishment" required >
+    <!--<select size="1" name="establishment">
+	 <option value="Nan">Not specified</option>
+	 <option value="BSU">BSU</option>
+	 <option value="BSUIR">BSUIR</option>
+     <option value="BNTU">BNTU</option>
+	</select>-->
+    <br><br>
+    Education:<br>
+	<select size="1" name="education" required>
+     <option value="" label="Nan"></option>
+	 <option value="Secondary">Secondary</option>
+	 <option value="Technical">Technical school</option>
+     <option value="Uincomplete">University incomplete</option>
+     <option value="Higher">Higher</option>
+     <option value="Master">Master</option>
+	</select>
+    <br><br>
+      Education form:<br>
+    <select size="1" name="form" required > 
+	 <option value="" label="Nan"></option>
+	 <option value="Full">Full-time</option>
+	 <option value="Part">Part-time</option>
+     <option value="Distant">Distant</option>
+	</select>
+    <br><br>
+     Graduation year:<br>
+    <select size="1" name="form" required >
+	 <option value="" label="Nan"></option>   
+	 <option value="2014">2014</option>
+	 <option value="2015">2015</option>
+     <option value="2016">2016</option>
+     <!--<option value="etc">etc..</option>-->
+	</select>
+    <br><br>
+   </fieldset>
+   <fieldset>
+     <legend>Foreign languages:</legend>
+     English:
+     <input type="radio" name="english" value="1">
+	 <input type="radio" name="english" value="2">
+	 <input type="radio" name="english" value="3">
+     <input type="radio" name="english" value="4">
+	 <input type="radio" name="english" value="5">
+     <br>
+     Deutsch:
+      <input type="radio" name="deutsch" value="1">
+	 <input type="radio" name="deutsch" value="2">
+	 <input type="radio" name="deutsch" value="3">
+     <input type="radio" name="deutsch" value="4">
+	 <input type="radio" name="deutsch" value="5">
+     <br>
+     Italiano:
+     <input type="radio" name="italiano" value="1">
+	 <input type="radio" name="italiano" value="2">
+	 <input type="radio" name="italiano" value="3">
+     <input type="radio" name="italiano" value="4">
+	 <input type="radio" name="italiano" value="5">
+     <!--etc..-->
+     <br><br>
+   </fieldset>
+  <fieldset>
+    <legend>Professional skills</legend>
+    Programming languages:<br>
+     C#:
+     <input type="radio" name="c#" value="1">
+	 <input type="radio" name="c#" value="2">
+	 <input type="radio" name="c#" value="3">
+     <input type="radio" name="c#" value="4">
+	 <input type="radio" name="c#" value="5">
+     <br>
+     JavaScript / HTML / CSS:
+      <input type="radio" name="frontend" value="1">
+	 <input type="radio" name="frontend" value="2">
+	 <input type="radio" name="frontend" value="3">
+     <input type="radio" name="frontend" value="4">
+	 <input type="radio" name="frontend" value="5">
+     <br>
+     Java:
+     <input type="radio" name="java" value="1">
+	 <input type="radio" name="java" value="2">
+	 <input type="radio" name="java" value="3">
+     <input type="radio" name="java" value="4">
+	 <input type="radio" name="java" value="5">
+     <!--etc..-->
+     <br><br>
+     Databases:<br>
+      Microsoft SQL Server:
+     <input type="radio" name="MsqlS" value="1">
+	 <input type="radio" name="MsqlS" value="2">
+	 <input type="radio" name="MsqlS" value="3">
+     <input type="radio" name="MsqlS" value="4">
+	 <input type="radio" name="MsqlS" value="5">
+     <br>
+     Oracle:
+      <input type="radio" name="oracle" value="1">
+	 <input type="radio" name="oracle" value="2">
+	 <input type="radio" name="oracle" value="3">
+     <input type="radio" name="oracle" value="4">
+	 <input type="radio" name="oracle" value="5">
+     <br>
+     NoSQL:
+     <input type="radio" name="noSQL" value="1">
+	 <input type="radio" name="noSQL" value="2">
+	 <input type="radio" name="noSQL" value="3">
+     <input type="radio" name="noSQL" value="4">
+	 <input type="radio" name="noSQL" value="5">
+     <!--etc..-->
+     <br><br>
+     OS:<br>
+      Android:
+     <input type="radio" name="android" value="1">
+	 <input type="radio" name="android" value="2">
+	 <input type="radio" name="android" value="3">
+     <input type="radio" name="android" value="4">
+	 <input type="radio" name="android" value="5">
+     <br>
+     iOS:
+      <input type="radio" name="ios" value="1">
+	 <input type="radio" name="ios" value="2">
+	 <input type="radio" name="ios" value="3">
+     <input type="radio" name="ios" value="4">
+	 <input type="radio" name="ios" value="5">
+     <br>
+     Windows Phone:
+     <input type="radio" name="wPhone" value="1">
+	 <input type="radio" name="wPhone" value="2">
+	 <input type="radio" name="wPhone" value="3">
+     <input type="radio" name="wPhone" value="4">
+	 <input type="radio" name="wPhone" value="5">
+     <!--etc..-->
+     <br><br>
+     Platforms:<br>
+      AMAZON:
+     <input type="radio" name="amazon" value="1">
+	 <input type="radio" name="amazon" value="2">
+	 <input type="radio" name="amazon" value="3">
+     <input type="radio" name="amazon" value="4">
+	 <input type="radio" name="amazon" value="5">
+     <br>
+     AZURE:
+      <input type="radio" name="azure" value="1">
+	 <input type="radio" name="azure" value="2">
+	 <input type="radio" name="azure" value="3">
+     <input type="radio" name="azure" value="4">
+	 <input type="radio" name="azure" value="5">
+     <br>
+     SAP:
+     <input type="radio" name="sap" value="1">
+	 <input type="radio" name="sap" value="2">
+	 <input type="radio" name="sap" value="3">
+     <input type="radio" name="sap" value="4">
+	 <input type="radio" name="sap" value="5">
+     <!--etc..-->
+     <br><br>
+    </fieldset>
+    <fieldset>
+    <legend>Contacts</legend>
+    Address:<br>
+	<textarea name="adress" cols="50" rows="3" wrap="hard" required></textarea>
+    <br><br>
+    Email:<br>
+     <input type="text" name="email" required >
+     <br><br>
+    Phone number:<br>
+    <input type="text" name="phone" required >
+    <br><br>
+    </fieldset>
+    <input type="submit" name="submit" formenctype="multipart/form-data" value="Submit">
+</form> 
+
+</body>
+
+</html>
