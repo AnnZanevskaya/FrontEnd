@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: #4d4d4d;
+	font-family: 'Museo500';
+	font-size: 21px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	background-color:#C6F;	
+}
+hr {
+	color:#3FF;
+	border-bottom-color:#3FF;
+	border-bottom-style:solid;
+	border-bottom-width:thick;
+}
+tr, td {
+	   text-align:center;
+	   border: 1px solid #000;
+	   font-weight:normal;
+
+}
+table td:hover {
+	background-color: #FF3;
+	color:#FFF;
+}
+section{
+	   width: 600px;
+	   padding: 30px;
+	   background-color: #fff;
+	   position: relative;
+}
+.main, td:first-child {
+	background-color: #6FF;
+	font-weight:bolder !important;
+	font-style:normal;
+}
+.main:first-child, tfoot td:first-child {
+	color:#009
+}
+.line {
+	border-top: 2px solid red;
+}
+.italic {
+	font-style:italic !important;
+}
+
+/* не понимает :С 
+tfoot :not(tr:first-child) {
+	border-top: 2px solid red;
+}*/

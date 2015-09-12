@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: #4d4d4d;
+	font-family: 'Museo500';
+	font-size: 14px;
+	background-color:#00CDCD;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	border-bottom:1px solid #1b1b1b;
+}
+tr, td {
+	   text-align:center;	   
+}
+table td:hover {
+	background-color: #0FF;
+	color:#FFF
+}
+header, footer {
+	text-align:center;
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+}
+header p {
+	text-align:left ;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Museo500';
+	font-weight: normal;
+}
+h1{
+	font-size: 22px;
+	line-height: 26px;
+}
+.leftimg {
+    float:left; 
+    margin: 7px 20px 7px 0; 
+   }
+
+.container{
+	   width: 600px;
+	   margin: 20px auto;
+	   padding: 30px;
+	   background-color: #fff;
+	   position: relative;
+	   -webkit-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.6);
+	   -moz-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.6);
+	   -ms-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.6);
+	   -o-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.6);
+	   box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.6);	   
+}
+
+.title {
+	font-style:italic;
+}
+a:link { color: #06C}
+a:visited { color: #666; }
+a:hover { color: #FC0; }
+a:active { color: #F00; }
